@@ -164,7 +164,6 @@ SCUI.UploadView = SC.View.extend(
     
     SC.Event.remove(frame, 'load', this, this._uploadFetchIFrameContent);
     SC.Event.remove(input, 'change', this, this._checkInputValue);
-    sc_super();
   },
   
   _startUploadXHR: function(f) {

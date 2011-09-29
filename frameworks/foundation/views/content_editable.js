@@ -330,7 +330,6 @@ SCUI.ContentEditableView = SC.WebView.extend(SC.Editable,
     var doc = this._document;
     var docBody = doc.body;
     this._removeEventHandlers(doc, docBody);
-    sc_super();
   },
 
   editorSetup: function() {
